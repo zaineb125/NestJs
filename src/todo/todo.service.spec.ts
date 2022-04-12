@@ -1,5 +1,5 @@
 import { Test, TestingModule } from '@nestjs/testing';
-import { ToDoService } from './to-do.service';
+import { ToDoService } from '../todo/to-do.service';
 
 describe('ToDoService', () => {
   let service: ToDoService;
